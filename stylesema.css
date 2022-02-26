@@ -18,7 +18,8 @@
 }
 
 body{
-    background-color: #70E59B;  
+    background-image: linear-gradient(to right, var(--cor3), var(--cor0) );
+    text-decoration: none;
 }
 
 p{
@@ -28,7 +29,7 @@ p{
 }
 
 header{
-    background-image: linear-gradient(to top, var(--cor3), var(--cor0) );
+    
     color: white;
     text-align: center;
     padding-top: 10px;   
@@ -95,6 +96,7 @@ main h1{padding-bottom: 8px;
     font-family: Raleway;
     margin: 15px;
     color: var(--cor0);
+    text-align: center;
 }
 
 main h2{
@@ -105,6 +107,7 @@ main h2{
 }
 
 main h3{
+    font-size: 1.4em;
     text-align: center;
     margin: 15px;
 }
@@ -129,41 +132,44 @@ main img{
     text-align: center;
     font-size: 17px;
     font-family: 'Nunito Sans';
-    font-weight: 800;
+    font-weight: bolder;
     border-radius: 12px;   
+    display: block;
+    margin: auto;
+}
+.botao a{
+    color:black;
 }
 
 .botao:hover{
     background-color: var(--cor4);
-    
-   
 }
 .botao a:hover{
     background-color: transparent;
-    text-decoration: underline;
-}
-
-.botao{
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold ;
-    
+    text-decoration: underline; 
+    color:white;
 }
 
 footer{
-    background-color: var(--cor4);
+    background-color: #2f831352;
+}
+footer a{
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+footer > a:hover{
+    text-decoration: underline;
 }
 
 footer p{
-        color: black;
+        color: white;
         font-size: 14px;
-        font-weight: bolx;
-        font-family: 'Nunito Sans';
+        font-weight: bolder;
+        font-family:  'Arial Narrow Bold', sans-serif;
         text-align: center;
         padding: 5px;
         margin-top: 30px;
-        text-decoration: none;
+        
 }
