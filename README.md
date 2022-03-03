@@ -1,2 +1,3 @@
 # Primeiro-Projeto
- fiz esse site, com a base escrita da IGN
+   Fiz esse site com o tema de umas das minha series favoritas "Rick and Morty". <br> 
+   E a parte escrita, eu peguei de uma matéria da IGN.
